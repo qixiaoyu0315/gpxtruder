@@ -669,8 +669,8 @@ OpenJsCad.parseJsCadScriptSync = function (script, debugging) {
 // callback: should be function(error, csg)
 OpenJsCad.parseJsCadScriptASync = function (script, options, callback) {
   var baselibraries = [
-    "https://cdn.jsdelivr.net/gh/qixiaoyu0315/gpxtruder@tag5/js/csg.js",
-    "https://cdn.jsdelivr.net/gh/qixiaoyu0315/gpxtruder@tag5/js/openjscad.js"
+    "https://cdn.jsdelivr.net/gh/qixiaoyu0315/gpxtruder@tag7/js/csg.js",
+    "https://cdn.jsdelivr.net/gh/qixiaoyu0315/gpxtruder@tag7/js/openjscad.js"
   ];
 
   var baseurl = document.location.href.replace(/\?.*$/, '');
